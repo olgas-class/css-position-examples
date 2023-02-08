@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 1rem;
+    border: 2px solid red;
+    width: 50%;
+    min-height: 500px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.text-box {
+    margin: 1rem;
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.text-box:hover {
+    border-color: green;
+}
+
+.text-box p {
+    color: blue;
+}
+
+.text-box:hover p {
+    color: red;
+}
+
+.wrapper {
+    width: 50%;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 40px;
+}
+
+.hello {
+    display: none;
+}
+
+.wrapper:hover .hello {
+    display: block;
+}
+
+.wrapper:hover .bye {
+    display: none;
+}
